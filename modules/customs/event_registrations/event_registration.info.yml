@@ -1,0 +1,6 @@
+name: Event Registration
+type: module
+description: 'Provides comprehensive event registration functionality for Drupal 10 with email notifications, admin management, and CSV export.'
+core_version_requirement: ^10
+package: Custom
+configure: event_registration.admin_settings
