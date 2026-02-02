@@ -13,6 +13,61 @@ A comprehensive Drupal 10 module that provides event registration functionality 
 - **Admin Interface** 👨‍💼: Comprehensive admin interface for managing events and registrations
 - **Validation Rules** ✅: Comprehensive validation for all form fields
 
+## 📁 Project Structure
+
+event_registration/
+├── config/
+│ └── install/
+│ ├── event_registration.settings.yml
+│ └── …
+├── sql/
+│ └── event_registration.install
+├── src/
+│ ├── Controller/
+│ │ └── CsvExportController.php
+│ ├── Form/
+│ │ ├── EventConfigForm.php
+│ │ ├── EventRegistrationForm.php
+│ │ ├── RegistrationListForm.php
+│ │ └── AdminSettingsForm.php
+│ └── Service/
+│ └── MailService.php
+├── assets/
+│ ├── screenshots/
+│ │ ├── form_interface.png
+│ │ ├── admin_panel.png
+│ │ └── registration_list.png
+│ └── icons/
+├── docs/
+│ ├── installation.md
+│ ├── configuration.md
+│ └── troubleshooting.md
+├── tests/
+│ └── src/
+│ └── Functional/
+│ ├── EventRegistrationTest.php
+│ └── AdminInterfaceTest.php
+├── .github/
+│ ├── ISSUE_TEMPLATE/
+│ │ ├── bug_report.md
+│ │ └── feature_request.md
+│ └── workflows/
+│ └── ci.yml
+├── event_registration.info.yml
+├── event_registration.module
+├── event_registration.install
+├── event_registration.links.menu.yml
+├── event_registration.routing.yml
+├── event_registration.services.yml
+├── README.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── SECURITY.md
+├── UPGRADE.md
+├── LICENSE
+├── composer.json
+└── .gitignore
+
 ## 🛠️ Requirements
 
 - XAMPP (Apache, MySQL, PHP)
