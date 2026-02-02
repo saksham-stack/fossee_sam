@@ -159,9 +159,9 @@ Access the registration form at: **`http://localhost/drupal/event-registration`*
 
 ### Admin Management 👨‍💼
 
-1. View all registrations at `admin/event-registration/registrations` 📊
-2. Export registrations to CSV at `admin/event-registration/export/csv` 📈
-3. Add new events at `admin/config/event-registration/add-event` ➕
+1. View all registrations at `admin/event-registration/registrations` 
+2. Export registrations to CSV at `admin/event-registration/export/csv` 
+3. Add new events at `admin/config/event-registration/add-event` 
 
 ## 🗃️ Database Schema
 
